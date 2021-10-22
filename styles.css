@@ -1,0 +1,94 @@
+/* TRANSFORMATIONS */
+
+
+
+
+/* BASE STYLES
+------------------------------------- */
+body {
+    margin: 0;
+    padding: 0.5em;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 185, 81);
+    color: black;
+    font-family: sans-serif;
+}
+
+img {
+    width:max-content;
+    opacity: 0.4;
+}
+
+.red {
+    color:red;
+}
+
+.translate {
+    transform: translateX(800px);
+    rotate: 18deg;
+    mix-blend-mode:color-burn;
+    filter:blur(2px);
+    filter: contrast(300%);
+}
+.translate1 {
+    translate:-300px;
+    rotate: -25deg;
+    transform: scale(150%,150%);
+    mix-blend-mode:normal;
+    filter:contrast(300%)
+}
+.translate2 {
+    transform: translate(400px,-1000px);
+    rotate: 18deg;
+    mix-blend-mode:exclusion;
+    filter:contrast(200%)
+}
+/* NAVIGATION
+------------------------------------- */
+nav {
+
+}
+
+nav a {
+
+}
+
+nav a:hover {
+
+}
+
+
+
+
+
+/* HOME PAGE
+------------------------------------- */
+main {
+
+}
+
+
+
+
+
+/* GALLERY PAGE
+------------------------------------- */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5em;
+    max-width: 50em;
+    margin: 5em auto;
+}
+
+.gallery-item {
+    padding: 0.5em;
+    border: 1px solid black;
+    display: grid;
+    align-items: end;
+    background: radial-gradient(rgba(0, 0, 0, 0), black);
+}
+
+
+
